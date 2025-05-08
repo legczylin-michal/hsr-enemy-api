@@ -5,7 +5,7 @@ from calc import HSR
 def main():
     access.update()
 
-    result = HSR.debuff_chance([65, 100], [120, 140, 157], 'arcana', 'phantylia', 95)
+    result = HSR.debuff_chance([75, 100], [77.76, 95.76], 'imprisonment', 'automaton', 95)
 
     for key, value in result.items():
         print(f'{key} => {value}')
