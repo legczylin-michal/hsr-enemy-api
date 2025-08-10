@@ -1,0 +1,13 @@
+import os
+
+ROOT_FOLDER_NAME = "HSR-API"
+
+ENEMIES_FOLDER_NAME = "enemies"
+ENEMIES_FOLDER_PATH = os.path.join(ROOT_FOLDER_NAME, ENEMIES_FOLDER_NAME)
+
+CHARACTERS_FOLDER_NAME = "characters"
+CHARACTERS_FOLDER_PATH = os.path.join(ROOT_FOLDER_NAME, CHARACTERS_FOLDER_NAME)
+
+INDEX_NAME = "index.json"
+
+WIKI_URL = "https://honkai-star-rail.fandom.com"

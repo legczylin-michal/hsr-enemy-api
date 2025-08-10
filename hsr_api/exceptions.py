@@ -1,0 +1,2 @@
+class UnidentifiedDebuffTypeException(Exception):
+	pass
