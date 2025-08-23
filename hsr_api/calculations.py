@@ -25,7 +25,7 @@ class Calculations:
 		result: list[Enemy] = []
 		
 		for enemy_name in self.enemies_index:
-			if p_name is None or re.search(rf"(?i)({p_name})", enemy_name):
+			if p_name is None or re.search(rf"(?i)({re.escape(p_name)})", enemy_name):
 				with open(
 						os.path.join(constants.ENEMIES_FOLDER_PATH, uid_from_name(enemy_name) + ".pkl"), "rb"
 				) as file:
